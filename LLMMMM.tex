@@ -1,0 +1,73 @@
+\normalfont
+
+
+\documentclass[10pt,conference,letterpaper]{IEEEtran}
+\usepackage[pdftex]{graphicx}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{balance}
+\usepackage{makecell}
+\usepackage{array}
+\usepackage{cite}
+\usepackage{hyperref} % for the url and hyperref
+\usepackage{url}
+\usepackage{float}
+\usepackage{wrapfig}
+
+\IEEEoverridecommandlockouts
+
+\begin{document}
+
+\bstctlcite{bstctl:etal}
+
+\title{LLMMMM: Large Language Models Matrix-Matrix Multiplications Characterization on Open Source Silicon}
+
+\author{\IEEEauthorblockN{Louis Ledoux\IEEEauthorrefmark{1}\IEEEauthorrefmark{2},
+Marc Casas\IEEEauthorrefmark{1}\IEEEauthorrefmark{2}
+}
+\IEEEauthorblockA{\IEEEauthorrefmark{1}Barcelona Supercomputing Center, Barcelona, Spain}
+\IEEEauthorblockA{\IEEEauthorrefmark{2}Universitat Polit\`ecnica de Catalunya, Barcelona, Spain}
+
+E-mail: \{louis.ledoux,marc.casas\}@bsc.es\\
+
+}
+
+\maketitle
+
+%ABSTRACT - Dis-comment the following lines to add an abstract
+%\begin{abstract}
+%You can add an abstract here
+%\end{abstract}
+
+\begin{keywords}
+	Large Language Models (LLM), Transformers, Generative Pre-Trained (GPT), Matrix-Matrix Multiplications, Floating-Points, arithmetic, ASIC, Open-Source
+\end{keywords}
+
+\vspace{-4mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Introduction
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Extended Abstract}
+\input{LLMMMM_introduction.tex}
+\input{LLMMMM_biography.tex}
+\input{LLMMMM_acknowledgment.tex}
+
+\IEEEpeerreviewmaketitle
+
+\vspace{-2mm}
+
+
+\vspace{-2mm}
+
+%%%%%%%%% -- BIB STYLE AND FILE -- %%%%%%%%
+\balance
+\bibliographystyle{IEEEtran}
+%\bibliography{IEEEabrv,paper}
+
+\bibliography{references.bib}
+\vspace{-7mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
