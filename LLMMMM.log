@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.2)  6 APR 2024 23:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.2)  7 APR 2024 23:48
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -181,13 +181,9 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@cols=\count268
 \TX@ftn=\toks20
 )
-(/usr/share/texlive/texmf-dist/tex/latex/preprint/balance.sty
-Package: balance 1999/02/23 4.3 (PWD)
-\oldvsize=\dimen175
-)
 (/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen176
+\rotheadsize=\dimen175
 \c@nlinenum=\count269
 \TeXr@lab=\toks21
 )
@@ -237,7 +233,7 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen177
+\@linkdim=\dimen176
 \Hy@linkcounter=\count270
 \Hy@pagecounter=\count271
 
@@ -277,7 +273,7 @@ Package hyperref Info: Bookmarks ON on input line 4445.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen178
+\XeTeXLinkMargin=\dimen177
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -287,8 +283,8 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count274
-\Field@Width=\dimen179
-\Fld@charsize=\dimen180
+\Field@Width=\dimen178
+\Fld@charsize=\dimen179
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
@@ -340,14 +336,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box54
 )
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen181
-\WF@size=\dimen182
+\wrapoverhang=\dimen180
+\WF@size=\dimen181
 \c@WF@wrappedlines=\count281
 \WF@box=\box55
 \WF@everypar=\toks24
 Package: wrapfig 2003/01/31  v 3.6
 )
-** ATTENTION: Overriding command lockouts (line 19).
+** ATTENTION: Overriding command lockouts (line 17).
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count282
@@ -356,35 +352,35 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 (./LLMMMM.aux)
 \openout1 = `LLMMMM.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count283
-\scratchdimen=\dimen183
+\scratchdimen=\dimen182
 \scratchbox=\box57
 \nofMPsegments=\count284
 \nofMParguments=\count285
 \everyMPshowfont=\toks25
 \MPscratchCnt=\count286
-\MPscratchDim=\dimen184
+\MPscratchDim=\dimen183
 \MPnumerator=\count287
 \makeMPintoPDFobject=\count288
 \everyMPtoPDFconversion=\toks26
@@ -397,7 +393,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 19.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -410,47 +406,93 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count289
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
 
 (./LLMMMM.out) (./LLMMMM.out)
 \@outlinefile=\write3
 \openout3 = `LLMMMM.out'.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 38.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 38.
+(Font)              <11> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 38.
+(Font)              <7.69997> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 38.
+(Font)              <5.5> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 38.
+(Font)              <8> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 38.
+(Font)              <6> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 38.
+(Font)              <5> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 38.
+(Font)              <7> on input line 36.
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 3
-8.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
 
-** ATTENTION: \keywords is deprecated (line 44). Use \IEEEkeywords instead.
+** ATTENTION: \keywords is deprecated (line 42). Use \IEEEkeywords instead.
 
-Underfull \hbox (badness 1490) in paragraph at lines 44--46
+Underfull \hbox (badness 1490) in paragraph at lines 42--44
 \OT1/ptm/b/it/9 Gen-er-a-tive Pre-Trained (GPT), Matrix-Matrix Mul-ti-pli-ca-ti
 ons,
  []
 
-(./LLMMMM_introduction.tex) (./LLMMMM_biography.tex
-<./figures/louis2.jpg, id=25, 401.5pt x 558.085pt>
+(./LLMMMM_introduction.tex) (./LLMMMM_contributions.tex
+
+LaTeX Warning: Citation `OpenROAD' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Citation `us_osda' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Reference `weight_distribution' on page 1 undefined on input lin
+e 7.
+
+<./figures/SUF.pdf, id=41, 758.91692pt x 511.10197pt>
+File: ./figures/SUF.pdf Graphic file (type pdf)
+<use ./figures/SUF.pdf>
+Package pdftex.def Info: ./figures/SUF.pdf  used on input line 15.
+(pdftex.def)             Requested size: 253.04987pt x 170.4189pt.
+<./figures/SA_8x8_e4m3_rulers_congestion.png, id=42, 1578.89874pt x 2045.6425pt
+>
+File: ./figures/SA_8x8_e4m3_rulers_congestion.png Graphic file (type png)
+<use ./figures/SA_8x8_e4m3_rulers_congestion.png>
+Package pdftex.def Info: ./figures/SA_8x8_e4m3_rulers_congestion.png  used on i
+nput line 25.
+(pdftex.def)             Requested size: 126.52493pt x 163.90445pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.30 
+      <./figures/SUF.pdf>]
+<./figures/systolic_arrays.png, id=119, 2970.09625pt x 2066.72125pt>
+File: ./figures/systolic_arrays.png Graphic file (type png)
+<use ./figures/systolic_arrays.png>
+Package pdftex.def Info: ./figures/systolic_arrays.png  used on input line 34.
+(pdftex.def)             Requested size: 253.04987pt x 176.06317pt.
+<./figures/power_vs_area_comparison.pdf, id=121, 509.29349pt x 210.4398pt>
+File: ./figures/power_vs_area_comparison.pdf Graphic file (type pdf)
+<use ./figures/power_vs_area_comparison.pdf>
+Package pdftex.def Info: ./figures/power_vs_area_comparison.pdf  used on input 
+line 48.
+(pdftex.def)             Requested size: 253.04987pt x 104.56137pt.
+) (./LLMMMM_conclusions.tex) (./LLMMMM_biography.tex
+<./figures/louis2.jpg, id=122, 401.5pt x 558.085pt>
 File: ./figures/louis2.jpg Graphic file (type jpg)
 <use ./figures/louis2.jpg>
 Package pdftex.def Info: ./figures/louis2.jpg  used on input line 6.
@@ -477,32 +519,48 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[2pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.73 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.73 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.73 \end{document}
+                    <./figures/power_vs_area_comparison.pdf> <./figures/SA_8x8_
+e4m3_rulers_congestion.png> <./figures/systolic_arrays.png> <./figures/louis2.j
+pg>] (./LLMMMM.aux)
 
+LaTeX Warning: There were undefined references.
 
- <./figures/louis2.jpg>]
-(./LLMMMM.aux)
 Package rerunfilecheck Info: File `LLMMMM.out' has not changed.
-(rerunfilecheck)             Checksum: E0BAA43B3FEFE375FBB211044E39B9C0;557.
+(rerunfilecheck)             Checksum: D10D1A0C74346F68285465AD2DDAB62F;1049.
  ) 
 Here is how much of TeX's memory you used:
- 10039 strings out of 478287
- 159616 string characters out of 5849290
- 464922 words of memory out of 5000000
- 28091 multiletter control sequences out of 15000+600000
- 501872 words of font info for 86 fonts, out of 8000000 for 9000
+ 10071 strings out of 478287
+ 160419 string characters out of 5849290
+ 468085 words of memory out of 5000000
+ 28106 multiletter control sequences out of 15000+600000
+ 502979 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,793b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,63p,793b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on LLMMMM.pdf (1 page, 97188 bytes).
+Output written on LLMMMM.pdf (2 pages, 17798618 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 331 PDF objects out of 1000 (max. 8388607)
+ 237 compressed objects within 3 object streams
+ 17 named destinations out of 1000 (max. 500000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
 

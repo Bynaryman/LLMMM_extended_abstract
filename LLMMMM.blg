@@ -9,6 +9,9 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
 Warning--I didn't find a database entry for "bstctl:etal"
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "OpenROAD"
+Warning--I didn't find a database entry for "us_osda"
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -16,7 +19,7 @@ Warning--I didn't find a database entry for "bstctl:etal"
 Done.
 You've used 1 entry,
             4024 wiz_defined-function locations,
-            813 strings with 7394 characters,
+            816 strings with 7417 characters,
 and the built_in function-call counts, 506 in all, are:
 = -- 26
 > -- 13
@@ -55,4 +58,4 @@ warning$ -- 0
 while$ -- 1
 width$ -- 2
 write$ -- 29
-(There was 1 warning)
+(There were 4 warnings)

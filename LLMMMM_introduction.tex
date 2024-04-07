@@ -1,4 +1,31 @@
+%\subsection{Introduction}
+%\label{sec:introduction}
+%
+%GPT transformers are usefol for ..
+%
+%However, they cost a lot Prior work show the cost of~\cite{luccioni2022estimating}
+%
+%Esentially MMM, wity hdatya movement of datum, the arithmetic weigts etc.. (describe the matrices, number of elements)
+%
+%Recent work focus on designing Specialized format and algorithm to reduce the cost (reducing bitwdith, MLX, tpu, bitnet, ternary, 40\% layer remove)
+%
+%We introduce a generator of ASIC kernels agnostic to the PDK of MMM units of emerging and small floating point formnats, we then evaluate such units.
+
 \subsection{Introduction}
 \label{sec:introduction}
 
-Prior work show the cost of~\cite{luccioni2022estimating}
+GPT transformers are useful for various applications, offering significant advancements in natural language processing tasks.
+
+However, their operational costs are substantial.
+Prior work has highlighted the financial implications of deploying these models.~\cite{luccioni2022estimating}
+
+Essentially, matrix-matrix multiplications (MMM), with their intensive data movement and manipulation of arithmetic weights, underscore the computational demands of these architectures.
+This involves handling vast matrices and managing numerous elements within these computational structures.
+
+Recent efforts in research have concentrated on devising specialized formats and algorithms aimed at mitigating these costs.
+These innovations include reducing bit-width, optimizing matrix multiplication techniques (MLX), and leveraging specialized hardware such as TPUs and BitNets, along with adopting ternary networks and eliminating up to 40\% of layers without significant loss in performance.~\cite{}
+
+We introduce an innovative approach by presenting a generator of ASIC kernels that remains agnostic to the Process Design Kit (PDK) specifically for MMM units.
+This approach caters to emerging and unconventional small floating point formats.
+We further undertake a comprehensive evaluation of these units, demonstrating their efficacy and potential.~\cite{}
+Explicetely say the list of the contributions (we createall the arithmetic, the matmult unit, high level descrption of all of that to put in tsuf framework, evaluation on placed androtue asix (gds))

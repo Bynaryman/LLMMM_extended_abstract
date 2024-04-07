@@ -1,13 +1,11 @@
-\normalfont
-
-
+%\normalfont
 \documentclass[10pt,conference,letterpaper]{IEEEtran}
 \usepackage[pdftex]{graphicx}
 \usepackage{graphicx}
 \usepackage[table]{xcolor}
 \usepackage{booktabs}
 \usepackage{tabularx}
-\usepackage{balance}
+%\usepackage{balance}
 \usepackage{makecell}
 \usepackage{array}
 \usepackage{cite}
@@ -22,7 +20,7 @@
 
 \bstctlcite{bstctl:etal}
 
-\title{LLMMMM: Large Language Models Matrix-Matrix Multiplications Characterization on Open Source Silicon}
+\title{LLMMMM: Large Language Models Matrix-Matrix Multiplications Characterization on Open Silicon}
 
 \author{\IEEEauthorblockN{Louis Ledoux\IEEEauthorrefmark{1}\IEEEauthorrefmark{2},
 Marc Casas\IEEEauthorrefmark{1}\IEEEauthorrefmark{2}
@@ -42,7 +40,7 @@ E-mail: \{louis.ledoux,marc.casas\}@bsc.es\\
 %\end{abstract}
 
 \begin{keywords}
-	Large Language Models (LLM), Transformers, Generative Pre-Trained (GPT), Matrix-Matrix Multiplications, Floating-Points, arithmetic, ASIC, Open-Source
+	Large Language Models (LLM), Transformers, Generative Pre-Trained (GPT), Matrix-Matrix Multiplications, Floating-Points, arithmetic, ASIC, Open-Source Silicon (OSS)
 \end{keywords}
 
 \vspace{-4mm}
@@ -51,6 +49,8 @@ E-mail: \{louis.ledoux,marc.casas\}@bsc.es\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Extended Abstract}
 \input{LLMMMM_introduction.tex}
+\input{LLMMMM_contributions.tex}
+\input{LLMMMM_conclusions.tex}
 \input{LLMMMM_biography.tex}
 \input{LLMMMM_acknowledgment.tex}
 
@@ -62,7 +62,7 @@ E-mail: \{louis.ledoux,marc.casas\}@bsc.es\\
 \vspace{-2mm}
 
 %%%%%%%%% -- BIB STYLE AND FILE -- %%%%%%%%
-\balance
+%\balance
 \bibliographystyle{IEEEtran}
 %\bibliography{IEEEabrv,paper}
 
