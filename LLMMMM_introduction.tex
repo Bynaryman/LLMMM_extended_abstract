@@ -15,17 +15,11 @@
 \label{sec:introduction}
 
 GPT transformers are useful for various applications, offering significant advancements in natural language processing tasks.
-
-However, their operational costs are substantial.
-Prior work has highlighted the financial implications of deploying these models.~\cite{luccioni2022estimating}
+However, their operational costs are substantial has shown in prior work which highlights the financial implications of deploying these models~\cite{luccioni2022estimating}.
 
 Essentially, matrix-matrix multiplications (MMM), with their intensive data movement and manipulation of arithmetic weights, underscore the computational demands of these architectures.
-This involves handling vast matrices and managing numerous elements within these computational structures.
+Naturally, these observations are also found in recent efforts within the research community, which have concentrated on devising specialized formats and algorithms aimed at mitigating these costs.
+These innovations include reducing bit-width exemplified by Machine Learning eXchange (MLX) formats (essentially small floats)~\cite{}, specialized hardware such as TPUs' systolic arrays~\cite{}, model pruning of up to 40\%~\cite{}, and more recently, ternary and binary LLMs (see BitNets~\cite{}).
 
-Recent efforts in research have concentrated on devising specialized formats and algorithms aimed at mitigating these costs.
-These innovations include reducing bit-width, optimizing matrix multiplication techniques (MLX), and leveraging specialized hardware such as TPUs and BitNets, along with adopting ternary networks and eliminating up to 40\% of layers without significant loss in performance.~\cite{}
-
-We introduce an innovative approach by presenting a generator of ASIC kernels that remains agnostic to the Process Design Kit (PDK) specifically for MMM units.
-This approach caters to emerging and unconventional small floating point formats.
-We further undertake a comprehensive evaluation of these units, demonstrating their efficacy and potential.~\cite{}
-Explicetely say the list of the contributions (we createall the arithmetic, the matmult unit, high level descrption of all of that to put in tsuf framework, evaluation on placed androtue asix (gds))
+We introduce a generator of ASIC kernels agnostic to the PDK of MMM units for emerging and small floating-point formats, followed by the evaluation of such units.
+Concretely, our contributions include the automated generation of circuits for any floating-point format with automated pipelining, a systolic array architecture proposal—these two combined form the foundation of MMM units, a framework to automate the translation from high-level language (Python) to silicon for such matrices (SUF, SuperSet Framework~\cite{}), the generation of $7 \text{ arithmetic formats} \times 2 \text{ accumulator configurations} \times 4 \text{ PDKs} = 56$ chips, and their performance and efficiency evaluation, all provided as open source.
