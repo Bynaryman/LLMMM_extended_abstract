@@ -25,4 +25,35 @@
 A.~S. Luccioni, S.~Viguier, and A.-L. Ligozat, ``Estimating the carbon
   footprint of bloom, a 176b parameter language model,'' 2022.
 
+\bibitem{ma2024era}
+S.~Ma, H.~Wang, L.~Ma, L.~Wang, W.~Wang, S.~Huang, L.~Dong, R.~Wang, J.~Xue,
+  and F.~Wei, ``The era of 1-bit llms: All large language models are in 1.58
+  bits,'' 2024.
+
+\bibitem{ajayi2019toward}
+T.~Ajayi, V.~A. Chhabria, M.~Foga{\c{c}}a, S.~Hashemi, A.~Hosny, A.~B. Kahng,
+  M.~Kim, J.~Lee, U.~Mallappa, M.~Neseem \emph{et~al.}, ``Toward an open-source
+  digital flow: First learnings from the openroad project,'' in
+  \emph{Proceedings of the 56th Annual Design Automation Conference 2019},
+  2019, pp. 1--4.
+
+\bibitem{micikevicius_fp8_2022}
+\BIBentryALTinterwordspacing
+P.~Micikevicius, D.~Stosic, N.~Burgess, M.~Cornea, P.~Dubey, R.~Grisenthwaite,
+  S.~Ha, A.~Heinecke, P.~Judd, J.~Kamalu, N.~Mellempudi, S.~Oberman,
+  M.~Shoeybi, M.~Siu, and H.~Wu, ``\BIBforeignlanguage{en}{{FP8} {Formats} for
+  {Deep} {Learning}},'' arXiv, Tech. Rep. arXiv:2209.05433, Sep. 2022,
+  arXiv:2209.05433 [cs]. [Online]. Available:
+  \url{http://arxiv.org/abs/2209.05433}
+\BIBentrySTDinterwordspacing
+
+\bibitem{gustafson_beating_2017}
+\BIBentryALTinterwordspacing
+J.~L. Gustafson and I.~T. Yonemoto, ``\BIBforeignlanguage{en}{Beating
+  {Floating} {Point} at its {Own} {Game}: {Posit} {Arithmetic}},''
+  \emph{\BIBforeignlanguage{en}{Supercomputing Frontiers and Innovations}},
+  vol.~4, no.~2, pp. 71--86, Apr. 2017, number: 2. [Online]. Available:
+  \url{https://superfri.org/index.php/superfri/article/view/137}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

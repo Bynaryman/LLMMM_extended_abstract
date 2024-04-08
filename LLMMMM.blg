@@ -9,52 +9,50 @@ Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Database file #1: references.bib
 Warning--I didn't find a database entry for "bstctl:etal"
-Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "Openroad"
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 1 entry,
+You've used 5 entries,
             4024 wiz_defined-function locations,
-            815 strings with 7410 characters,
-and the built_in function-call counts, 506 in all, are:
-= -- 26
-> -- 13
-< -- 0
-+ -- 6
-- -- 3
-* -- 34
-:= -- 90
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 1
-chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 35
-empty$ -- 41
-format.name$ -- 4
-if$ -- 91
+            839 strings with 8656 characters,
+and the built_in function-call counts, 4031 in all, are:
+= -- 275
+> -- 178
+< -- 15
++ -- 88
+- -- 41
+* -- 227
+:= -- 600
+add.period$ -- 10
+call.type$ -- 5
+change.case$ -- 7
+chr.to.int$ -- 30
+cite$ -- 5
+duplicate$ -- 286
+empty$ -- 303
+format.name$ -- 46
+if$ -- 888
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 9
-newline$ -- 26
-num.names$ -- 1
-pop$ -- 28
+int.to.str$ -- 5
+missing$ -- 77
+newline$ -- 42
+num.names$ -- 5
+pop$ -- 197
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 31
+skip$ -- 281
 stack$ -- 0
-substring$ -- 1
-swap$ -- 20
-text.length$ -- 0
+substring$ -- 79
+swap$ -- 231
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 1
+type$ -- 5
 warning$ -- 0
-while$ -- 1
-width$ -- 2
-write$ -- 29
-(There were 3 warnings)
+while$ -- 13
+width$ -- 6
+write$ -- 73
+(There was 1 warning)

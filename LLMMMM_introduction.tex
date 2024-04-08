@@ -1,16 +1,3 @@
-%\subsection{Introduction}
-%\label{sec:introduction}
-%
-%GPT transformers are usefol for ..
-%
-%However, they cost a lot Prior work show the cost of~\cite{luccioni2022estimating}
-%
-%Esentially MMM, wity hdatya movement of datum, the arithmetic weigts etc.. (describe the matrices, number of elements)
-%
-%Recent work focus on designing Specialized format and algorithm to reduce the cost (reducing bitwdith, MLX, tpu, bitnet, ternary, 40\% layer remove)
-%
-%We introduce a generator of ASIC kernels agnostic to the PDK of MMM units of emerging and small floating point formnats, we then evaluate such units.
-
 \subsection{Introduction}
 \label{sec:introduction}
 
@@ -19,7 +6,7 @@ However, their operational costs are substantial has shown in prior work which h
 
 Essentially, matrix-matrix multiplications (MMM), with their intensive data movement and manipulation of arithmetic weights, underscore the computational demands of these architectures.
 Naturally, these observations are also found in recent efforts within the research community, which have concentrated on devising specialized formats and algorithms aimed at mitigating these costs.
-These innovations include reducing bit-width exemplified by Machine Learning eXchange (MLX) formats (essentially small floats)~\cite{}, specialized hardware such as TPUs' systolic arrays~\cite{}, model pruning of up to 40\%~\cite{}, and more recently, ternary and binary LLMs (see BitNets~\cite{}).
+These innovations include reducing bit-width exemplified by Machine Learning eXchange (MLX) formats (essentially small floats), specialized hardware such as TPUs' systolic arrays, model pruning of up to 40\%, and more recently, ternary and binary LLMs (see BitNets~\cite{ma2024era}).
 
 We introduce a generator of ASIC kernels agnostic to the PDK of MMM units for emerging and small floating-point formats, followed by the evaluation of such units.
-Concretely, our contributions include the automated generation of circuits for any floating-point format with automated pipelining, a systolic array architecture proposal—these two combined form the foundation of MMM units, a framework to automate the translation from high-level language (Python) to silicon for such matrices (SUF, SuperSet Framework~\cite{}), the generation of $7 \text{ arithmetic formats} \times 2 \text{ accumulator configurations} \times 4 \text{ PDKs} = 56$ chips, and their performance and efficiency evaluation, all provided as open source.
+Concretely, our contributions include the automated generation of circuits for any floating-point format with automated pipelining, a systolic array architecture proposal—these two combined form the foundation of MMM units, a framework to automate the translation from high-level language (Python) to silicon for such matrices, the generation of $4 \text{ arithmetic formats} \times 2 \text{ accumulator configurations} \times 4 \text{ PDKs} = 32$ chips, and their performance and efficiency evaluation, all provided as open source.

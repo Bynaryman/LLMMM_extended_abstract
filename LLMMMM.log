@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.9.11)  8 APR 2024 09:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.9.11)  8 APR 2024 11:28
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -496,20 +496,22 @@ ons,
  []
 
 (./LLMMMM_introduction.tex) (./LLMMMM_contributions.tex
-
-LaTeX Warning: Citation `Openroad' on page 1 undefined on input line 4.
-
-<./figures/SUF.pdf, id=42, 758.91692pt x 511.10197pt>
+<./figures/SUF.pdf, id=46, 758.91692pt x 511.10197pt>
 File: ./figures/SUF.pdf Graphic file (type pdf)
 <use ./figures/SUF.pdf>
-Package pdftex.def Info: ./figures/SUF.pdf  used on input line 11.
-(pdftex.def)             Requested size: 253.04987pt x 170.4189pt.
-<./figures/power_vs_area_comparison.pdf, id=43, 509.29349pt x 210.4398pt>
+Package pdftex.def Info: ./figures/SUF.pdf  used on input line 16.
+(pdftex.def)             Requested size: 227.74333pt x 153.37076pt.
+<./figures/power_vs_area_comparison.pdf, id=47, 509.29349pt x 210.4398pt>
 File: ./figures/power_vs_area_comparison.pdf Graphic file (type pdf)
 <use ./figures/power_vs_area_comparison.pdf>
 Package pdftex.def Info: ./figures/power_vs_area_comparison.pdf  used on input 
-line 20.
-(pdftex.def)             Requested size: 253.04987pt x 104.56137pt.
+line 25.
+(pdftex.def)             Requested size: 227.74333pt x 94.10298pt.
+
+Underfull \hbox (badness 1515) in paragraph at lines 33--41
+\OT1/ptm/m/n/10 and e5m2, and the ta-pered for-mats, posit4 (es=0), and
+ []
+
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fon
 ts/enc/dvips/base/8r.enc}
 
@@ -519,49 +521,53 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.38 W
-      e complement this set with \textit{Performance} specifications that sp...
-
+l.41 
+     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.38 W
-      e complement this set with \textit{Performance} specifications that sp...
- <./figures/SUF.pdf> <./figures/power_vs_area_comparison.pdf
+l.41 
+      <./figures/SUF.pdf> <./figures/power_vs_area_comparison.pdf
 
 pdfTeX warning: pdflatex (file ./figures/power_vs_area_comparison.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >]
-<./figures/SA_8x8_e4m3_rulers_congestion.png, id=287, 1578.89874pt x 2045.6425p
+<./figures/systolic_arrays.png, id=299, 2970.09625pt x 2066.72125pt>
+File: ./figures/systolic_arrays.png Graphic file (type png)
+<use ./figures/systolic_arrays.png>
+Package pdftex.def Info: ./figures/systolic_arrays.png  used on input line 67.
+(pdftex.def)             Requested size: 227.74333pt x 158.46632pt.
+<./figures/SA_8x8_e4m3_rulers_congestion.png, id=302, 1578.89874pt x 2045.6425p
 t>
 File: ./figures/SA_8x8_e4m3_rulers_congestion.png Graphic file (type png)
 <use ./figures/SA_8x8_e4m3_rulers_congestion.png>
 Package pdftex.def Info: ./figures/SA_8x8_e4m3_rulers_congestion.png  used on i
-nput line 50.
-(pdftex.def)             Requested size: 126.52493pt x 163.90445pt.
-<./figures/systolic_arrays.png, id=289, 2970.09625pt x 2066.72125pt>
-File: ./figures/systolic_arrays.png Graphic file (type png)
-<use ./figures/systolic_arrays.png>
-Package pdftex.def Info: ./figures/systolic_arrays.png  used on input line 59.
-(pdftex.def)             Requested size: 253.04987pt x 176.06317pt.
+nput line 80.
+(pdftex.def)             Requested size: 113.87166pt x 147.51712pt.
 ) (./LLMMMM_conclusions.tex) (./LLMMMM_biography.tex
-<./figures/louis2.jpg, id=290, 401.5pt x 558.085pt>
+<./figures/louis2.jpg, id=303, 401.5pt x 558.085pt>
 File: ./figures/louis2.jpg Graphic file (type jpg)
 <use ./figures/louis2.jpg>
 Package pdftex.def Info: ./figures/louis2.jpg  used on input line 6.
-(pdftex.def)             Requested size: 94.3341pt x 131.12445pt.
-
-Underfull \hbox (badness 2753) in paragraph at lines 8--9
-[][]\OT1/ptm/m/n/10 Louis Ledoux, orig-i-nat-ing
- []
-
-) (./LLMMMM_acknowledgment.tex)
+(pdftex.def)             Requested size: 36.69081pt x 51.0004pt.
+)
+(./LLMMMM_acknowledgment.tex)
 Underfull \hbox (badness 3460) in paragraph at lines 3--57
 \OT1/ptm/m/n/10 sup-ported by grant PID2019-107255GB-C21 funded by
  []
 
-(./LLMMMM.bbl)
+(./LLMMMM.bbl
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -585,33 +591,30 @@ s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.74 \end{document}
-                    <./figures/SA_8x8_e4m3_rulers_congestion.png> <./figures/sy
-stolic_arrays.png> <./figures/louis2.jpg>] (./LLMMMM.aux)
-
-LaTeX Warning: There were undefined references.
-
+                    <./figures/systolic_arrays.png> <./figures/SA_8x8_e4m3_rule
+rs_congestion.png> <./figures/louis2.jpg>] (./LLMMMM.aux)
 Package rerunfilecheck Info: File `LLMMMM.out' has not changed.
 (rerunfilecheck)             Checksum: 7B663CD721574BB5671F8817E99A2A1D;1283.
  ) 
 Here is how much of TeX's memory you used:
- 10831 strings out of 477985
- 170976 string characters out of 5840058
- 1871388 words of memory out of 5000000
- 30845 multiletter control sequences out of 15000+600000
- 547589 words of font info for 98 fonts, out of 8000000 for 9000
+ 10844 strings out of 477985
+ 171177 string characters out of 5840058
+ 1873388 words of memory out of 5000000
+ 30851 multiletter control sequences out of 15000+600000
+ 550281 words of font info for 101 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,13n,76p,793b,438s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,76p,597b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
-</usr/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist
-/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/
-utmri8a.pfb>
-Output written on LLMMMM.pdf (2 pages, 17820558 bytes).
+s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y8.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texm
+f-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw
+/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on LLMMMM.pdf (2 pages, 17828616 bytes).
 PDF statistics:
- 341 PDF objects out of 1000 (max. 8388607)
- 243 compressed objects within 3 object streams
- 17 named destinations out of 1000 (max. 500000)
+ 362 PDF objects out of 1000 (max. 8388607)
+ 262 compressed objects within 3 object streams
+ 22 named destinations out of 1000 (max. 500000)
  98 words of extra memory for PDF output out of 10000 (max. 10000000)
 
