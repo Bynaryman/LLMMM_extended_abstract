@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.9.11)  8 APR 2024 11:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.9.11)  8 APR 2024 11:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -505,10 +505,10 @@ Package pdftex.def Info: ./figures/SUF.pdf  used on input line 16.
 File: ./figures/power_vs_area_comparison.pdf Graphic file (type pdf)
 <use ./figures/power_vs_area_comparison.pdf>
 Package pdftex.def Info: ./figures/power_vs_area_comparison.pdf  used on input 
-line 25.
+line 26.
 (pdftex.def)             Requested size: 227.74333pt x 94.10298pt.
 
-Underfull \hbox (badness 1515) in paragraph at lines 33--41
+Underfull \hbox (badness 1515) in paragraph at lines 34--42
 \OT1/ptm/m/n/10 and e5m2, and the ta-pered for-mats, posit4 (es=0), and
  []
 
@@ -521,13 +521,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.41 
+l.42 
      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.41 
+l.42 
       <./figures/SUF.pdf> <./figures/power_vs_area_comparison.pdf
 
 pdfTeX warning: pdflatex (file ./figures/power_vs_area_comparison.pdf): PDF inc
@@ -536,14 +536,14 @@ lusion: multiple pdfs with page group included in a single page
 <./figures/systolic_arrays.png, id=299, 2970.09625pt x 2066.72125pt>
 File: ./figures/systolic_arrays.png Graphic file (type png)
 <use ./figures/systolic_arrays.png>
-Package pdftex.def Info: ./figures/systolic_arrays.png  used on input line 67.
+Package pdftex.def Info: ./figures/systolic_arrays.png  used on input line 68.
 (pdftex.def)             Requested size: 227.74333pt x 158.46632pt.
 <./figures/SA_8x8_e4m3_rulers_congestion.png, id=302, 1578.89874pt x 2045.6425p
 t>
 File: ./figures/SA_8x8_e4m3_rulers_congestion.png Graphic file (type png)
 <use ./figures/SA_8x8_e4m3_rulers_congestion.png>
 Package pdftex.def Info: ./figures/SA_8x8_e4m3_rulers_congestion.png  used on i
-nput line 80.
+nput line 81.
 (pdftex.def)             Requested size: 113.87166pt x 147.51712pt.
 ) (./LLMMMM_conclusions.tex) (./LLMMMM_biography.tex
 <./figures/louis2.jpg, id=303, 401.5pt x 558.085pt>
